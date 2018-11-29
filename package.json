@@ -4,7 +4,8 @@
   "description": "The official JavaScript API wrapper for Gmodstore.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon test.js"
+    "dev": "nodemon test.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
     "axios": "^0.18.0"
   },
   "devDependencies": {
-    "dotenv": "^6.1.0"
+    "dotenv": "^6.1.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
