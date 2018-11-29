@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The official JavaScript API wrapper for Gmodstore.",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gmodstore/gmodstore-js-sdk.git"
